@@ -1,0 +1,12 @@
+name: datacircle
+version: 0.1.0
+description: "Find the best GTM APIs: every API on Datacircle's sheet, who is best for each, every plan and its price, and each provider's ranks, from Datacircle's open API (no key)"
+author: Datacircle
+license: MIT
+homepage: https://datacircle.dev
+requires_hermes: ">=0.23.1"
+provides_tools:
+  - datacircle_list_apis
+  - datacircle_best_plans
+  - datacircle_search_plans
+  - datacircle_provider
