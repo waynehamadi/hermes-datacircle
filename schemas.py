@@ -31,7 +31,8 @@ BEST_PLANS = {
     "name": "datacircle_best_plans",
     "description": (
         "Gives an API's plans best first by their score out of 100 on Datacircle's benchmark "
-        "(https://datacircle.dev), each with its rank, provider, plan, $ per 1,000 calls and its page."
+        "(https://datacircle.dev), each with its rank, provider, plan, $ per 1,000 calls and its page. "
+        "perThousand is a plan's price of 1,000 items in dollars, pay the plan's whole price in its currency."
     ),
     "parameters": {
         "type": "object",
@@ -55,7 +56,8 @@ SEARCH_PLANS = {
     "name": "datacircle_search_plans",
     "description": (
         "Searches every plan on Datacircle's sheet (https://datacircle.dev), or one API's, by provider or plan "
-        "name, sorted by score, provider or price. Gives how many were found and up to limit of them."
+        "name, sorted by score, provider or price. Gives how many were found and up to limit of them. "
+        "perThousand is a plan's price of 1,000 items in dollars, pay the plan's whole price in its currency."
     ),
     "parameters": {
         "type": "object",
